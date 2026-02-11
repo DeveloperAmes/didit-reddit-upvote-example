@@ -1,6 +1,6 @@
 import { signIn } from "@/auth";
 
-export function LoginButton() {
+export default function LoginButton() {
   async function handleLogin() {
     "use server";
     await signIn();
