@@ -1,5 +1,5 @@
 import auth from "../app/middleware";
-import { LoginButton } from "./LoginButton";
+import { LoginButton } from "./LogInButton";
 import { LogoutButton } from "./LogoutButton";
 
 export async function UserInfo() {
