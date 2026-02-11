@@ -49,6 +49,4 @@ The project is a work in progress and is not yet complete.
 
 ## Assignment Reflections:
 
-- I managed to deploy on Vercel but without all features working.
-
-- I spent probably most of the day trying to get the GitHub login to work but was unsuccessful. I couldn't figure out the issue, even after following the docs and trying different variations of the callback URL. I watched YouTube videos and looked on stackoverflow and checked both the GitHub and Authjs docs, and it still didn't work.
+- I managed to deploy on Vercel and finally get the GitHub login working by renaming all of the tables. I haven't had time to do any of the stretch goals because I spent probably most of the day trying to get the GitHub login to work. It turned out that the issue was that right at the beginning, I had renamed the "posts", "users" and "comments" database tables to have the prefix "didit\_" so that it wouldn't clash with some of the tables that I already had in my database from a previous workshop. After renaming the users table back to users, it finally worked.
