@@ -46,3 +46,9 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+## Assignment Reflections:
+
+- I managed to deploy on Vercel but without all features working.
+
+- I spent probably most of the day trying to get the GitHub login to work but was unsuccessful. I couldn't figure out the issue, even after following the docs and trying different variations of the callback URL. I watched YouTube videos and looked on stackoverflow and checked both the GitHub and Authjs docs, and it still didn't work.
